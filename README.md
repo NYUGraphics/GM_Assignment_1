@@ -5,10 +5,7 @@ This repository contains the viewer code and data files you'll need for parts
 2-5 of assignment 1.
 
 ## Getting Started
-To begin, clone the repository:
-```
-git clone https://github.com/NYUGP17/Assignment_1
-```
+To begin, follow the link from Assitant to create the repository in this organization.
 
 Next, please refer to the [General Rules and Instructions](https://github.com/danielepanozzo/gp/raw/master/guidelines.pdf)
 handout for instructions on installing LIBIGL and its dependencies.
@@ -27,15 +24,13 @@ When the build completes successfully, begin implementing the missing blocks in
 src/main.cpp as described by the assignment PDF.
 
 ## Submitting
-When you finish the assignment, you will submit it by pushing it to a new
-repository on our NYUGP17 organization.
+When you finish the assignment, you will submit it by pushing it to a the
+repository on our organization.
 
-1. Create a **private** repository in https://github.com/NYUGP17/ called
-   **Assignment1_USER**, where USER is your github username that you entered in
-   the class survey.
+1. Follow the link sent out by Assistant
 2. Push your code to the repository:
 ```
-git push https://github.com/NYUGP17/Assignment1_USER
+git push https://github.com/NYUGeometricModeling/Geometric_Modeling_Assignment1_USER
 ```
 
 ## Travis-CI
