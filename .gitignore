@@ -1,2 +1,15 @@
-build
+*.a
+*.app
+*.dll
+*.dylib
+*.exe
 *.o
+*.out
+*.slo
+*.so
+.DS_Store
+.idea/*
+.vscode/*
+build
+cmake-build-debug/
+cmake-build-release/
