@@ -11,7 +11,7 @@ Next, please refer to the [General Rules and Instructions](https://github.com/da
 handout for instructions on installing LIBIGL and its dependencies.
 
 ## Building and Completing the Assignment
-Once LIBIGL is set up (and pointed to by environment variable $LIBIGL_ROOT) you
+You
 should be able to build the viewer code:
 ```
 mkdir build && cd build && cmake ..

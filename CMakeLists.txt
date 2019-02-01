@@ -9,7 +9,7 @@ download_project(
     SOURCE_DIR   ${CMAKE_CURRENT_SOURCE_DIR}/external/libigl
     DOWNLOAD_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/.cache/libigl
     GIT_REPOSITORY https://github.com/libigl/libigl.git
-    GIT_TAG        7f7551af1613f60c7e89bef3934baf0da6298b06
+    GIT_TAG        e699d257fe860d4fd82709835e72438bd0cd1533
 )
 
 # libigl
