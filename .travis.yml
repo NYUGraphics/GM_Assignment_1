@@ -5,10 +5,9 @@ matrix:
     - os: linux
       compiler: gcc-4.8.1
       script:
-        - git clone --recursive https://github.com/libigl/libigl.git ../libigl
         - mkdir build
         - cd build
-        - cmake -DCMAKE_CXX_COMPILER=g++-4.8 -DCMAKE_C_COMPILER=gcc-4.8 -DLIBIGL_WITH_NANOGUI=OFF ../
+        - cmake -DCMAKE_CXX_COMPILER=g++-4.8 -DCMAKE_C_COMPILER=gcc-4.8 ../
         - make -j2
       addons:
         apt:
