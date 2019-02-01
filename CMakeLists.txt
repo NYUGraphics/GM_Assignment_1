@@ -3,6 +3,15 @@ project(ex1)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
+include(DownloadProject)
+download_project(
+    PROJ         libigl
+    SOURCE_DIR   ${CMAKE_CURRENT_SOURCE_DIR}/external/libigl
+    DOWNLOAD_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/.cache/libigl
+    GIT_REPOSITORY https://github.com/libigl/libigl.git
+    GIT_TAG        7f7551af1613f60c7e89bef3934baf0da6298b06
+)
+
 # libigl
 option(LIBIGL_USE_STATIC_LIBRARY "Use libigl as static library" OFF)
 option(LIBIGL_WITH_ANTTWEAKBAR      "Use AntTweakBar"    OFF)
