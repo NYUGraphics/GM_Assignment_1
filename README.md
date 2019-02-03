@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/NYUGP17/Assignment_1.svg?branch=master)](https://travis-ci.org/NYUGP17/Assignment_1)
+[![Build Status](https://travis-ci.org/NYUGraphics/GM_Assignment_1.svg?branch=master)](https://travis-ci.org/NYUGraphics/GM_Assignment_1)
 # Assignment 1
 
 This repository contains the viewer code and data files you'll need for parts
@@ -30,7 +30,7 @@ repository on our organization.
 1. Follow the link sent out by Assistant
 2. Push your code to the repository:
 ```
-git push https://github.com/NYUGeometricModeling/Geometric_Modeling_Assignment1_USER
+git push https://github.com/NYUGraphics/GM_Assignment1_USER
 ```
 
 ## Travis-CI
